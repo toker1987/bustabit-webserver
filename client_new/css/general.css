@@ -5,7 +5,8 @@
 html, body {
     -webkit-font-smoothing: antialiased;
     font: 20px "Verlag A", "Verlag B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: black;
+    color: white;
+    background: #181a1e;
     font-weight: 300;
     line-height: 20px;
     height: 100%;
@@ -14,7 +15,8 @@ html, body {
 }
 
 body {
-    background: white;
+    color: white;
+    background: #181a1e;
 }
 
 a {

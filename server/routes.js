@@ -159,7 +159,7 @@ function requestDevOtt(id, callback) {
 
 module.exports = function(app) {
 
-    app.get('/', staticPageLogged('index'));
+    app.get('/', tableNew()); // Changed the default index page to play page {staticPageLogged('index')}
     app.get('/register', staticPageLogged('register', '/play'));
     app.get('/login', staticPageLogged('login', '/play'));
     app.get('/reset/:recoverId', user.validateResetPassword);

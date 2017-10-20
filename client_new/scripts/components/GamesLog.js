@@ -110,7 +110,7 @@ define([
                         ),
                     D.td(null, cashed_at),
                     D.td(null, bet),
-                    D.td(null, bonus),
+                    //D.td(null, bonus),//
                     D.td(null, profit),
                     D.td(null,
                         D.input({type: 'input', className: 'games-log-hash', readOnly: true, value: game.hash }),
@@ -131,7 +131,7 @@ define([
                                 D.th(null, D.div({ className: 'th-inner'}, 'Crash')),
                                 D.th(null, D.div({ className: 'th-inner'}, '@')),
                                 D.th(null, D.div({ className: 'th-inner'}, 'Bet')),
-                                D.th(null, D.div({ className: 'th-inner'}, 'Bonus')),
+                                //D.th(null, D.div({ className: 'th-inner'}, 'Bonus')),//
                                 D.th(null, D.div({ className: 'th-inner'}, 'Profit')),
                                 D.th(null, D.div({ className: 'th-inner'}, 'Hash'))
                             )

@@ -124,14 +124,14 @@ define([
                                 },
                                 D.a(null, 'History')
                             ),
-                            D.li({
+                            /*D.li({
                                     className: 'tab ' + tabCols + ' noselect' + ((this.state.selectedTab === 'chat') ? ' tab-active' : ''),
                                     onClick: this._selectTab('chat')
                                 },
                                 D.a(null, 'Chat')
                             ),
 							playersTab,
-                            autoBetTab
+                            autoBetTab*/
                         ),
                         D.div({
                                 className: 'tab-settings noselect' + ((this.state.selectedTab === 'settings') ? ' tab-active' : ''),

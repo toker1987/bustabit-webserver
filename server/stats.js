@@ -8,10 +8,10 @@ var bankrollOffset = config.BANKROLL_OFFSET;
 
 function getSiteStats() {
     database.getSiteStats(function(err, results) {
-        if (err) {
+        /*if (err) {
             console.error('[INTERNAL_ERROR] Unable to get site stats: \n' + err);
             return;
-        }
+        }*/
 
         stats = results;
         generated = new Date();
