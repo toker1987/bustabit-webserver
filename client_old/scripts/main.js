@@ -2,13 +2,17 @@ define([
     'lib/react',
     'components/Game',
     'lib/clib',
-    'game-logic/engine'
+    'game-logic/engine',
+    'lib/socket.io-1.2.1'
 ], function(
     React,
     GameClass,
     Clib,
-    Engine
+    Engine,
+    io
 ) {
+    // Expose Socket.IO globally for other modules
+    window.io = io;
 
     var Game = React.createFactory(GameClass);
 
